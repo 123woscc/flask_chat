@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #333;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        form {
+
+        }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50%;
+            height: 30%;
+            padding: 20px;
+            text-align: center;
+{#            background: #000;#}
+            color: #fff;
+            transform: translate(-50%, -50%);
+        }
+        input{
+            width: 50%;
+            height: 50px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+            font-size: 1.5em;
+            text-align: center;
+            outline:none;
+        }
+        button{
+            display: block;
+            width: 50%;
+            height: 50px;
+            margin: 20px auto;
+            border-radius: 5px;
+            background: #333;
+            color: #ffffff;
+            font-size: 1.3em;
+            line-height: 50px;
+            outline:none;
+        }
+
+    </style>
+</head>
+<body>
+<form method="post" class="center">
+    <input type="text" name="user" placeholder="Username">
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>
